@@ -38,7 +38,7 @@ bool Helper::checkPrimality(long n) {
     return true;
 }
 
-/* Not actually useful, here for map, vectore, and static var ref */
+/* Not actually useful, here for map, vector, and static var ref */
 std::vector<int> Helper::eliminateRedundantDivisors(int a, int b) {
     if(eliminateRD_aCache == a && eliminateRD_bCache == b)
         return eliminateRD_cache;
